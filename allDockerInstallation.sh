@@ -1,6 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
+yum install docker -y
+systemctl enable --now docker
+
 echo "======================================"
 echo " Installing latest Compose + Buildx"
 echo "======================================"
