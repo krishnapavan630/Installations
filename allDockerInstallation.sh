@@ -6,7 +6,7 @@ echo " Installing latest Compose + Buildx"
 echo "======================================"
 
 # Detect CPU architecture
-ARCH="$(uname -m)"a
+ARCH="$(uname -m)"
 
 case "$ARCH" in
     x86_64)
